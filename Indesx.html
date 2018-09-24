@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Untitled Document</title>
+		<link rel="stylesheet" href="css/Stylesheet.css">
+		<link rel="stylesheet" href="css/hover.css">
+		<link rel="stylesheet" href="css/Links.css">
+		<link rel="stylesheet" href="css/Images.css">
+	</head>
+
+	<body>
+		<script type="text/javascript" src="js/hover.js"></script>
+		<script type="text/javascript" src="js/mainScreen.js"></script>
+		
+		<div id="main">
+			<div class="point" id="Text"></div>
+			<div class="point" id="Video"></div>
+			<div class="point" id="Audio"></div>
+			<div class="point" id="Image"></div>
+		</div>
+	
+		<div id="images">
+			<div class="image" id="TextImg" ><img class="img" src="img/Text/TextIcon.png" alt=""></div>
+			<div class="image" id="VideoImg"><img class="img" src="img/Text/TextIcon.png" alt=""></div>
+			<div class="image" id="AudioImg"><img class="img" src="img/MusicIcon/MusicIcon.png" alt=""></div>
+			<div class="image" id="ImgImage"><img class="img" src="img/Text/TextIcon.png" alt=""></div>
+		</div>
+		
+		<div id="Verlinkung">
+			<div class="links" id="TextLink"  onMouseOver="hoverOn(0)" onMouseOut="hoverOff(0)" onClick="alignButtons(0)"></div>
+			<div class="links" id="VideoLink" onMouseOver="hoverOn(1)" onMouseOut="hoverOff(1)" onClick="alignButtons(1)"></div>
+			<div class="links" id="AudioLink" onMouseOver="hoverOn(2)" onMouseOut="hoverOff(2)" onClick="alignButtons(2)"></div>
+			<div class="links" id="ImgLink"   onMouseOver="hoverOn(3)" onMouseOut="hoverOff(3)" onClick="alignButtons(3)"></div>
+		</div>
+		
+		<div id="hover">
+			<div class="hover"><div class="actualHover"></div></div>
+			<div class="hover"><div class="actualHover"></div></div>
+			<div class="hover"><div class="actualHover"></div></div>
+			<div class="hover"><div class="actualHover"></div></div>
+		</div>
+		
+		<div id="controlBar"></div>
+	</body>
+</html>

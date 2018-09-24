@@ -1,0 +1,24 @@
+#images {
+	z-index: 1;
+	position: fixed;
+	height: 100%; width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+
+.image {
+	width: 49.9%;
+	height: 49.9%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s;
+}
+
+.img {
+	height: 300px;
+	width: 300px;
+}
